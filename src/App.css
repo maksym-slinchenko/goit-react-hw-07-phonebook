@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  color: rgba(10, 10, 214, 0.822);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Logo-slider-appear {
+  transform: translateX(-100%);
+}
+.Logo-slider-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}

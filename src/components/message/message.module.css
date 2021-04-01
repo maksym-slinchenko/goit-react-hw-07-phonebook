@@ -1,0 +1,16 @@
+.messageContainer {
+  position: absolute;
+  right: 40px;
+  min-width: 300px;
+  max-width: 33%;
+  background-color: coral;
+  border: solid rgb(228, 43, 43) 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.message {
+  text-align: justify;
+}
